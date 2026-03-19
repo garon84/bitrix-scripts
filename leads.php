@@ -18,7 +18,7 @@ if (!is_array($entityBody)) {
     exit;
 }
 
-$webhook = 'https://sillan-masterok.kz/rest/6841/cfac72j2hetmb5oj/';
+$webhook = 'https://exemple.com/rest/1/rest/';
 $name = $entityBody['name'] ?? '';
 $phone = $entityBody['phone'] ?? '';
 //$product_text = $entityBody['textarea'] ?? '';
