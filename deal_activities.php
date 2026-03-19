@@ -26,8 +26,8 @@ if (!$activityId) {
 
 // Подготовка URL API Bitrix24
 $bitrix_domain = $_POST['auth']['domain'] ?? getenv('BITRIX_DOMAIN') ?? 'testgg.bitrix24.kz';
-$webhook_url_get = "https://sillan-masterok.kz/rest/153/o81z3shqjmou1flv/crm.activity.get.json"; // Замените на ваш вебхук с методом crm.activity.get
-$webhook_url_delete = "https://sillan-masterok.kz/rest/153/o81z3shqjmou1flv/crm.activity.delete.json"; // Замените на ваш вебхук с методом crm.activity.delete
+$webhook_url_get = "https://sillan-masterok.kz/rest/153"; // Замените на ваш вебхук с методом crm.activity.get
+$webhook_url_delete = "https://sillan-masterok.kz/rest/153"; // Замените на ваш вебхук с методом crm.activity.delete
 
 // 🔹 Запрашиваем детали активности
 $ch = curl_init();
